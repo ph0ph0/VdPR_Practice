@@ -25,11 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  return (
-    <>
-      <Text>Organisation Lobby</Text>
-    </>
-  );
+  return <></>;
 };
 
 const styles = StyleSheet.create({
