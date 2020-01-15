@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import {ScrollView, View, Text, Image} from 'react-native';
+import {ScrollView, View, Text} from 'react-native';
 import styled from 'styled-components';
 
 import {NavigationNativeContainer} from '@react-navigation/native';
@@ -20,9 +20,7 @@ const HomeScreenWrapper = () => {
     <ScrollView>
       <View>
         <ScreenTitle>Organisation</ScreenTitle>
-        <SubjectCardWrapper>
-          <SubjectImage />
-        </SubjectCardWrapper>
+        <SubjectCardWrapper />
       </View>
     </ScrollView>
   );
@@ -54,14 +52,6 @@ const SubjectCardWrapper = styled.View`
   margin-left: 20;
   margin-right: 20;
   margin-bottom: 10
-  margin-top: 10;
-`;
-
-const SubjectImage = styled.Image`
-  width: auto;
-  height: 90;
-  margin-left: 10;
-  margin-right: 10;
   margin-top: 10;
 `;
 

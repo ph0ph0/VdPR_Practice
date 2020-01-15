@@ -20,9 +20,7 @@ const HomeScreenWrapper = () => {
     <ScrollView>
       <View>
         <ScreenTitle>Organisation</ScreenTitle>
-        <SubjectCardWrapper>
-          <SubjectImage />
-        </SubjectCardWrapper>
+        <SubjectCardWrapper />
       </View>
     </ScrollView>
   );
