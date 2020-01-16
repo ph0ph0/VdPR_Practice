@@ -78,16 +78,15 @@ const TopLineWrapper = styled.View`
 `;
 
 const ProfileImage = styled.Image`
-  resize-mode: cover;
-  width: 40;
-  height: 40;
-  border-radius: 100;
-  border: 1px solid black;
+  object-fit: cover;
+  width: 30;
+  height: 30;
+  border-radius: 12;
 `;
 
 const ProfileName = styled.Text`
   font-size: 12;
-
+  resize: contain;
   /* color: '#000'; */
 `;
 

@@ -79,9 +79,9 @@ const TopLineWrapper = styled.View`
 
 const ProfileImage = styled.Image`
   resize-mode: cover;
-  width: 40;
-  height: 40;
-  border-radius: 100;
+  width: auto;
+  height: auto;
+  border-radius: 12;
   border: 1px solid black;
 `;
 
