@@ -22,10 +22,6 @@ const HomeScreenWrapper = () => {
         <ScreenTitle>Organisation</ScreenTitle>
         <SubjectCardWrapper>
           <SubjectImage source={require('./assets/WideNarrowGiraffe.jpg')} />
-          <TopLineWrapper>
-            <ProfileImage source={require('./assets/stockperson.jpg')} />
-            <ProfileName>John Doe</ProfileName>
-          </TopLineWrapper>
         </SubjectCardWrapper>
       </View>
     </ScrollView>
@@ -59,7 +55,6 @@ const SubjectCardWrapper = styled.View`
   margin-right: 20;
   margin-bottom: 10
   margin-top: 10;
-  border-radius: 5px;
 `;
 
 const SubjectImage = styled.Image`
@@ -68,25 +63,6 @@ const SubjectImage = styled.Image`
   margin-left: 10;
   margin-right: 10;
   margin-top: 10;
-  border-radius: 5;
-`;
-
-const TopLineWrapper = styled.View`
-  flex-direction: row;
-  width: auto;
-  height: 22;
-`;
-
-const ProfileImage = styled.Image`
-  object-fit: cover;
-  width: 30;
-  height: 30;
-  border-radius: 12;
-`;
-
-ProfileName = styled.Text`
-  font-size: 12;
-  /* color: '#000'; */
 `;
 
 export default App;

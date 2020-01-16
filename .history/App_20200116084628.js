@@ -23,7 +23,7 @@ const HomeScreenWrapper = () => {
         <SubjectCardWrapper>
           <SubjectImage source={require('./assets/WideNarrowGiraffe.jpg')} />
           <TopLineWrapper>
-            <ProfileImage source={require('./assets/stockperson.jpg')} />
+            <ProfileImage />
             <ProfileName>John Doe</ProfileName>
           </TopLineWrapper>
         </SubjectCardWrapper>
@@ -72,21 +72,20 @@ const SubjectImage = styled.Image`
 `;
 
 const TopLineWrapper = styled.View`
-  flex-direction: row;
+  flex-direction: horizontal;
   width: auto;
   height: 22;
 `;
 
 const ProfileImage = styled.Image`
-  object-fit: cover;
-  width: 30;
-  height: 30;
-  border-radius: 12;
+  width: 22;
+  height: 22;
+  clip-path: circle(15px at center);
 `;
 
 ProfileName = styled.Text`
   font-size: 12;
-  /* color: '#000'; */
+  color: '#919191';
 `;
 
 export default App;

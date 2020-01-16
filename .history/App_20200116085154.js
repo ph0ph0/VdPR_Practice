@@ -78,9 +78,8 @@ const TopLineWrapper = styled.View`
 `;
 
 const ProfileImage = styled.Image`
-  object-fit: cover;
-  width: 30;
-  height: 30;
+  width: 22;
+  height: 22;
   border-radius: 12;
 `;
 

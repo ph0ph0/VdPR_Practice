@@ -23,7 +23,7 @@ const HomeScreenWrapper = () => {
         <SubjectCardWrapper>
           <SubjectImage source={require('./assets/WideNarrowGiraffe.jpg')} />
           <TopLineWrapper>
-            <ProfileImage source={require('./assets/stockperson.jpg')} />
+            <ProfileImage source={require('./assets/Userpic.svg')} />
             <ProfileName>John Doe</ProfileName>
           </TopLineWrapper>
         </SubjectCardWrapper>
@@ -78,9 +78,8 @@ const TopLineWrapper = styled.View`
 `;
 
 const ProfileImage = styled.Image`
-  object-fit: cover;
-  width: 30;
-  height: 30;
+  width: 22;
+  height: 22;
   border-radius: 12;
 `;
 
