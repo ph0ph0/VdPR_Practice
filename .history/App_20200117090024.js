@@ -73,12 +73,9 @@ const SubjectImage = styled.Image`
 
 const TopLineWrapper = styled.View`
   border: 1px solid black;
+  flex-direction: row;
   width: auto;
   height: 22;
-
-  flex-direction: row;
-  /* justify-content: center; */
-  align-items: center;
 `;
 
 const ProfileImage = styled.Image`

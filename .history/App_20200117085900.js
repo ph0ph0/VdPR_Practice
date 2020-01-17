@@ -21,7 +21,6 @@ const HomeScreenWrapper = () => {
       <View>
         <ScreenTitle>Organisation</ScreenTitle>
         <SubjectCardWrapper>
-          <SubjectImage source={require('./assets/WideNarrowGiraffe.jpg')} />
           <TopLineWrapper>
             <ProfileImage source={require('./assets/stockperson.jpg')} />
             <ProfileName>John Doe</ProfileName>
@@ -73,21 +72,18 @@ const SubjectImage = styled.Image`
 
 const TopLineWrapper = styled.View`
   border: 1px solid black;
+  flex-direction: row;
   width: auto;
   height: 22;
-
-  flex-direction: row;
-  /* justify-content: center; */
-  align-items: center;
 `;
 
 const ProfileImage = styled.Image`
-  border: 1px solid black;
   resize-mode: cover;
   width: 30;
   height: 30;
   /* clip-path: circle(40%); */
   border-radius: 100px;
+  border: 1px solid black;
 `;
 
 const ProfileName = styled.Text`

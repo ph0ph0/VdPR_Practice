@@ -73,21 +73,18 @@ const SubjectImage = styled.Image`
 
 const TopLineWrapper = styled.View`
   border: 1px solid black;
+  flex-direction: row;
   width: auto;
   height: 22;
-
-  flex-direction: row;
-  /* justify-content: center; */
-  align-items: center;
 `;
 
 const ProfileImage = styled.Image`
-  border: 1px solid black;
   resize-mode: cover;
   width: 30;
   height: 30;
-  /* clip-path: circle(40%); */
+  /* clip-path: circle(20px at center); */
   border-radius: 100px;
+  border: 1px solid black;
 `;
 
 const ProfileName = styled.Text`

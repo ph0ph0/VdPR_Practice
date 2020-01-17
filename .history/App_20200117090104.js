@@ -77,7 +77,7 @@ const TopLineWrapper = styled.View`
   height: 22;
 
   flex-direction: row;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
 `;
 

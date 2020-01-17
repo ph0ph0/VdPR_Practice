@@ -72,28 +72,23 @@ const SubjectImage = styled.Image`
 `;
 
 const TopLineWrapper = styled.View`
-  border: 1px solid black;
+  flex-direction: row;
   width: auto;
   height: 22;
-
-  flex-direction: row;
-  /* justify-content: center; */
-  align-items: center;
 `;
 
 const ProfileImage = styled.Image`
-  border: 1px solid black;
   resize-mode: cover;
-  width: 30;
-  height: 30;
-  /* clip-path: circle(40%); */
-  border-radius: 100px;
+  width: 40;
+  height: 40;
+  clip-path: circle(20px at center);
+  border: 1px solid black;
 `;
 
 const ProfileName = styled.Text`
   font-size: 12;
 
-  color: #919191;
+  /* color: '#000'; */
 `;
 
 export default App;
