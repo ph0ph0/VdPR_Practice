@@ -28,8 +28,8 @@ const HomeScreenWrapper = () => {
           <TopLineWrapper>
             <ProfileImage source={require('./assets/stockperson.jpg')} />
             <ProfileName>John Doe Cunt</ProfileName>
-            {/* <Heart /> */}
-            <DotsIcon />
+            {/* <Heart />
+            <DotsIcon /> */}
           </TopLineWrapper>
         </SubjectCardWrapper>
       </View>

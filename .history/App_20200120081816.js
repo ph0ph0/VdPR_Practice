@@ -28,7 +28,7 @@ const HomeScreenWrapper = () => {
           <TopLineWrapper>
             <ProfileImage source={require('./assets/stockperson.jpg')} />
             <ProfileName>John Doe Cunt</ProfileName>
-            {/* <Heart /> */}
+            <Heart />
             <DotsIcon />
           </TopLineWrapper>
         </SubjectCardWrapper>
@@ -62,7 +62,7 @@ const SubjectCardWrapper = styled.View`
   background-color: white;
   margin-left: 20;
   margin-right: 20;
-  margin-bottom: 10;
+  margin-bottom: 10
   margin-top: 10;
   border-radius: 5px;
 `;
@@ -87,8 +87,8 @@ const TopLineWrapper = styled.View`
 `;
 
 const ProfileImage = styled.Image`
-  /* border: 1px solid black; */
-  /* resize-mode: cover; */
+  border: 1px solid black;
+  resize-mode: cover;
   width: 30;
   height: 30;
   /* clip-path: circle(40%); */
@@ -101,8 +101,8 @@ const ProfileName = styled.Text`
   color: #919191;
 `;
 
-// const Heart = styled(HeartIcon)`
-//   margin-left: auto;
-// `;
+const Heart = styled(HeartIcon)`
+  margin-left: auto;
+`;
 
 export default App;

@@ -101,8 +101,8 @@ const ProfileName = styled.Text`
   color: #919191;
 `;
 
-// const Heart = styled(HeartIcon)`
-//   margin-left: auto;
-// `;
+const Heart = styled(HeartIcon)`
+  margin-left: auto;
+`;
 
 export default App;
