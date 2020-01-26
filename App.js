@@ -72,7 +72,7 @@ const SubjectImage = styled.Image`
   margin-left: 10;
   margin-right: 10;
   margin-top: 10;
-  border-radius: 5;
+  border-radius: 10;
 `;
 
 const TopLineWrapper = styled.View`
